@@ -7,7 +7,7 @@
 	},
 	
     "manifest_version": 2,
-    "description": "Send Payments with Nano, open the Block Explorer or Vote Manager Page of a selected Lisk Address with the Context Menu.",
+    "description": "Access Lisk functionality from your context menu.",
     "permissions": [
       "contextMenus",
 	  "notifications"
