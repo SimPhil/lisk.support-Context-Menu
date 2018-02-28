@@ -1,5 +1,5 @@
 {
-    "name": "Lisk",
+    "name": "Lisk.support Utility Tool",
     "version": "0.9",
 	"icons": {
     "128": "favicon-large.png",
@@ -7,7 +7,7 @@
 	},
 	
     "manifest_version": 2,
-    "description": "Access the lisk.support tools or check your account or even send payments with nano",
+    "description": "Access Lisk functionality from your context menu.",
     "permissions": [
       "contextMenus",
 	  "notifications"

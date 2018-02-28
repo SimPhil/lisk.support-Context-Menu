@@ -1,6 +1,6 @@
 function isAddress(address) {
 	result = false;
-	if(/^\d+L$/.test(address)){
+	if(/^\d+[Ll]$/.test(address)){
 		result = true;
 	}
 	else{
@@ -8,7 +8,7 @@ function isAddress(address) {
                         type: "basic",
                         iconUrl: "favicon.png",
                         title: "Not a Lisk address!",
-                        message: "Uh oh, that's not a valid Lisk address."
+                        message: "Oh, that's not a valid Lisk address."
                     };
         chrome.notifications.create('limitNotif', notifOptions, function(id) {
 			timer = setTimeout(function(){chrome.notifications.clear(id);}, 3000);
